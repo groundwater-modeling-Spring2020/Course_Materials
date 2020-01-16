@@ -21,8 +21,17 @@ ____
 For this class we will use the following software packages.  Please follow the following instructions to get this setup on your laptop.
 
 1.	**Install Python3:** You can download this here. Make sure you pick the version that is right for your operating system <https://www.python.org/downloads/>
+**MAKE SURE** when you do the install that you check the box to add it to your PATH.
 
-2.	**Install Python Packages:** After you have installed python you will need the following packages. These can be installed using the command `pip3 install modulename` from the command line where *modulename* is the name of the module from the list below:
+2.	**Install Python Packages:** After you have installed python you will need the following packages. First open a terminal window (terminal for mac or Command Prompt for windows).
+
+To install you should run the follwing command from your terminal window *NOT from within Python*
+Mac users:
+`pip3 install modulename`
+Windows users:
+`python -m pip install modulename`
+
+Where *modulename* is the name of the module from the list below:
   - jupyter
   - numpy
   - requests
