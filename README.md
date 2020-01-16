@@ -25,10 +25,10 @@ For this class we will use the following software packages.  Please follow the f
 
 2.	**Install Python Packages:** After you have installed python you will need the following packages. First open a terminal window (terminal for mac or Command Prompt for windows).
 
-To install you should run the follwing command from your terminal window *NOT from within Python*
-Mac users:
+To install you should run the following command from your terminal window *NOT from within Python*
+- Mac users:
 `pip3 install modulename`
-Windows users:
+- Windows users:
 `python -m pip install modulename`
 
 Where *modulename* is the name of the module from the list below:
@@ -39,11 +39,11 @@ Where *modulename* is the name of the module from the list below:
   - matplotlib
   - Pandas
 
- To check if you have installed these modules you can use the command `pip3 list`. Alternatively if you prefer you can install module using [Andaconda] (https://www.anaconda.com/distribution/)
+ To check if you have installed these modules you can use the command `pip3 list`. Alternatively if you prefer you can install module using [Andaconda](https://www.anaconda.com/distribution/)
 
 3.	**Setup account and install Github**
   - Register for account on GitHub: <https://github.com/>
-  - Check if you have GitHub installed and if not install it.  Directions for both Windows & Mac here: <http://happygitwithr.com/install-git.html>. Windows users should follow Option 1 in 7.2. Mac users can follow Option 1 in 7.3 if comfortable, otherwise follow Option 2. If you are a windows user make sure you also install [GitBash] (https://www.atlassian.com/git/tutorials/git-bash) as is noted in the instructions.
+  - Check if you have GitHub installed and if not install it.  Directions for both Windows & Mac here: <http://happygitwithr.com/install-git.html>. Windows users should follow Option 1 in 6.2. Mac users can follow Option 1 in 6.3 if comfortable, otherwise follow Option 2. If you are a windows user make sure you also install [GitBash](https://www.atlassian.com/git/tutorials/git-bash) as is noted in the instructions.
   - Setup options in Git. In you have a Mac, you can go to the terminal if you have a Mac (Applications -> Utilities -> Terminal) as shown above. If you have a Windows, open Git BASH, which you should have downloaded in step 3.  You will need to  setup you username:  <https://help.github.com/en/github/using-git/setting-your-username-in-git> and your email: <https://help.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address>
   - Generate a SSH key so you don’t need to enter your password every time you interact with GitHub. Instructions for this can be found here: <https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account>.
 
