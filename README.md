@@ -88,9 +88,7 @@ Two things about committing. One, you should commit somewhat frequently. At mini
 
 5. At some point you'll want to get the updated version of the assignment back onto GitHub, either so that teachers/TAs can help you with your code, or so that it can be graded. You can do this by using a command called `git push` from inside your working directory. After you do this you should be able to see your latest changes on your git repo online.
 
-6. Testing and example
-
-7. more testing 
+6. better example
 #### Optional additional software to install:
 1.	**GitKraken** – A tool for managing github repos <https://www.gitkraken.com/download>
 2.	**ModelMuse** – For viewing MODFLOW models (Note you have to have windows for this to work). <https://www.usgs.gov/software/modelmuse-a-graphical-user-interface-groundwater-models>
