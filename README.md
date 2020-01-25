@@ -25,21 +25,21 @@ For this class we will use the following software packages.  Please follow the f
 
 2.	**Install Python Packages:** After you have installed python you will need the following packages. First open a terminal window (terminal for mac or Command Prompt for windows).
 
- To install you should run the following command from your terminal window *NOT from within Python*
- - Mac users:  
- `pip3 install modulename`
- - Windows users:  
- `python -m pip install modulename`
+   To install you should run the following command from your terminal window *NOT from within Python*
+   - Mac users:  
+   `pip3 install modulename`
+   - Windows users:  
+   `python -m pip install modulename`
 
- Where *modulename* is the name of the module from the list below:
-  - jupyter
-  - numpy
-  - requests
-  - flopy
-  - matplotlib
-  - Pandas
+   Where *modulename* is the name of the module from the list below:
+    - jupyter
+    - numpy
+    - requests
+    - flopy
+    - matplotlib
+    - Pandas
 
- To check if you have installed these modules you can use the command `pip3 list`. Alternatively if you prefer you can install module using [Andaconda](https://www.anaconda.com/distribution/)
+   To check if you have installed these modules you can use the command `pip3 list`. Alternatively if you prefer you can install module using [Andaconda](https://www.anaconda.com/distribution/)
 
 3.	**Setup account and install Github**
   - Register for account on GitHub: <https://github.com/>
@@ -54,7 +54,7 @@ For this class we will use the following software packages.  Please follow the f
   (if your ssh keys aren't setup you can also clone it like this `git clone https://github.com/groundwater-modeling-Spring2020/Course_Materials`)  
 
 5.	**Install MODFLOW**
- ##### Mac Users:
+   **Mac Users:**  
     Run the following commands to install MODFLOW using the PyMake
   - Check if you have gfortran installed bu typing `which gfortran` or `gfortran -v` into command line. If you don't see that you have gfortran installed you should install it from [here](https://github.com/fxcoudert/gfortran-for-macOS/releases)
   - `cd` to a directory where you would like to put your MODFLOW builds
@@ -66,7 +66,7 @@ For this class we will use the following software packages.  Please follow the f
   - The mp7 and mf2005 folders created in this step have the mode executables that you will need to point to when you are running MODFLOW. If you want to move these somewhere else you can do so now.
   - If you get an error about missing .h files it could be that your headers are not installed. You can fix that following [these instructions](https://donatstudios.com/MojaveMissingHeaderFiles).
 
-   ##### PC Users:
+    **PC Users:**  
     - Follow [these install instructions](https://water.usgs.gov/ogw/modflow-nwt/MODFLOW-NWT-Guide/index.html?beginners_guide_to_modflow.htm)
     - You can download MODFLOW 2005 [here](https://www.usgs.gov/software/modflow-2005-usgs-three-dimensional-finite-difference-ground-water-model).
 
