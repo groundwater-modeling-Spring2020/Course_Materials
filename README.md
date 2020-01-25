@@ -81,16 +81,16 @@ ____
 
 3. Navigate inside of your homeworks directory and then type `git clone repository-link` where *repository-link* should be replaced with the link you copied to your clipboard in step 3. You now have the files.
 
-  Note: If you received an error in the above steps, you may have to clone with HTTPS instead of SSH. You can do this by again clicking on the "Clone or Download" button in the repository page, then clicking "Use HTTPS" in the top right of the pop-up box. Now copy the link and repeat this step.
+      Note: If you received an error in the above steps, you may have to clone with HTTPS instead of SSH. You can do this by again clicking on the "Clone or Download" button in the repository page, then clicking "Use HTTPS" in the top right of the pop-up box. Now copy the link and repeat this step.
 
 4. After you make changes to the homework assignment, commit them.  Commits are essentially taking a snapshot of your projects. For example, if I make changes to a code so that it prints "Hello world", and then commit them with an informative message, I can look at the history of my commits and view the code that I wrote at that time. If I made some more changes to the function that resulted in an error, I could go back to the commit where the code was originally working. This prevents you from creating several versions of your homework (homework-v1, homework-v2, ...) or from trying to remember what your code originally looked like.
 
-  You can do commits through Atom if this is the text editor you are using or you can do it through command line. To do it through command line navigate to the homework directory. The type:
-  `git add -A`
-  `git commit -m "My commit message"`
-  Git add is a command that tells git which files you want to record the changes to when you make your commit. For example, if I made changes to file1 and file2 since my last commit, I can choose to only commit (take a snapshot of) the changes I made to file1. git add -A says to add all of the files that have changed since the last commit. If I just want to add file1, I would instead type git add file1.
+      You can do commits through Atom if this is the text editor you are using or you can do it through command line. To do it through command line navigate to the homework directory. The type:
+      `git add -A`
+      `git commit -m "My commit message"`
+      Git add is a command that tells git which files you want to record the changes to when you make your commit. For example, if I made changes to file1 and file2 since my last commit, I can choose to only commit (take a snapshot of) the changes I made to file1. git add -A says to add all of the files that have changed since the last commit. If I just want to add file1, I would instead type git add file1.
 
-  Two things about committing. One, you should commit somewhat frequently. At minimum, if you're doing a homework assignment, you should make a commit each time that you've finished a question. Two, leave informative commit messages. "Added stuff" will not help you if you're looking at your commit history in a year. A message like "Added initial version of hello-world function" will be more useful.
+      Two things about committing. One, you should commit somewhat frequently. At minimum, if you're doing a homework assignment, you should make a commit each time that you've finished a question. Two, leave informative commit messages. "Added stuff" will not help you if you're looking at your commit history in a year. A message like "Added initial version of hello-world function" will be more useful.
 
 5. At some point you'll want to get the updated version of the assignment back onto GitHub, either so that teachers/TAs can help you with your code, or so that it can be graded. You can do this by using a command called `git push` from inside your working directory. After you do this you should be able to see your latest changes on your git repo online.
 
