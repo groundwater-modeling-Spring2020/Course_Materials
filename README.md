@@ -53,7 +53,7 @@ For this class we will use the following software packages.  Please follow the f
   - Clone the main course materials repo: `git clone git@github.com:groundwater-modeling-Spring2020/Course_Materials.git`
   (if your ssh keys aren't setup you can also clone it like this `git clone https://github.com/groundwater-modeling-Spring2020/Course_Materials`)  
 
-5.	**Install MODFLOW**
+5.	**Install MODFLOW**  
    **Mac Users:**  
     Run the following commands to install MODFLOW using the PyMake
   - Check if you have gfortran installed bu typing `which gfortran` or `gfortran -v` into command line. If you don't see that you have gfortran installed you should install it from [here](https://github.com/fxcoudert/gfortran-for-macOS/releases)
@@ -75,7 +75,7 @@ ____
 ## Getting Started - Homework and GitHub Classroom
 1. I  will give you a link to an assignment, either through email or the class page. This will happen for each new assignment. You should follow the instructions for getting the homework repository set up. You should now have a repository for this homework.  
 
-  Note: After you accept an assignment for the first time, we will send you an invite to join the classroom organization as a member. Please accept this. You will probably get an email with the invitation, but you should also see a link at the top of your main GitHub page. Here is an image of what you should see after clicking the link:
+      Note: After you accept an assignment for the first time, we will send you an invite to join the classroom organization as a member. Please accept this. You will probably get an email with the invitation, but you should also see a link at the top of your main GitHub page. Here is an image of what you should see after clicking the link:
 
 2. Enter the homework repository on GitHub (this is online--GitHub is different from Git!). Click “Clone or Download”, and make sure it says “Clone with SSH” in bold in the top left of the pop-up box. If not, click on the blue “Use SSH” button on the top right of the pop-up box. Now copy the link in the box to your clipboard.
 
