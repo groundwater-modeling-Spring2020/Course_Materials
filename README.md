@@ -20,18 +20,18 @@ ____
 ## Getting Started - Software install instructions
 For this class we will use the following software packages.  Please follow the following instructions to get this setup on your laptop.
 
-1.	**Install Python3:** You can download this here. Make sure you pick the version that is right for your operating system <https://www.python.org/downloads/>
-**MAKE SURE** when you do the install that you check the box to add it to your PATH.
+1.	**Install Python3:** You can download this here. Make sure you pick the version that is right for your operating system <https://www.python.org/downloads/>  
+ **MAKE SURE** when you do the install that you check the box to add it to your PATH.
 
 2.	**Install Python Packages:** After you have installed python you will need the following packages. First open a terminal window (terminal for mac or Command Prompt for windows).
 
-To install you should run the following command from your terminal window *NOT from within Python*
-- Mac users:
-`pip3 install modulename`
-- Windows users:
-`python -m pip install modulename`
+ To install you should run the following command from your terminal window *NOT from within Python*
+ - Mac users:  
+ `pip3 install modulename`
+ - Windows users:  
+ `python -m pip install modulename`
 
-Where *modulename* is the name of the module from the list below:
+ Where *modulename* is the name of the module from the list below:
   - jupyter
   - numpy
   - requests
@@ -45,17 +45,18 @@ Where *modulename* is the name of the module from the list below:
   - Register for account on GitHub: <https://github.com/>
   - Check if you have GitHub installed and if not install it.  Directions for both Windows & Mac here: <http://happygitwithr.com/install-git.html>. Windows users should follow Option 1 in 6.2. Mac users can follow Option 1 in 6.3 if comfortable, otherwise follow Option 2. If you are a windows user make sure you also install [GitBash](https://www.atlassian.com/git/tutorials/git-bash) as is noted in the instructions.
   - Setup options in Git. In you have a Mac, you can go to the terminal if you have a Mac (Applications -> Utilities -> Terminal) as shown above. If you have a Windows, open Git BASH, which you should have downloaded in step 3.  You will need to  setup you username:  <https://help.github.com/en/github/using-git/setting-your-username-in-git> and your email: <https://help.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address>
-  - Generate a SSH key so you don’t need to enter your password every time you interact with GitHub. Instructions for this can be found here: <https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account>.
+  - Generate a SSH key so you don’t need to enter your password every time you interact with GitHub. Instructions for this can be found here: <https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account>.  
 
 4.	**Setup a directory for this class and clone main repo**
   - Make a directory for this class wherever you would like to have it on your computer
   - Open a terminal window and navigate to your course directory (you can do this using the commands cd and pwd)
   - Clone the main course materials repo: `git clone git@github.com:groundwater-modeling-Spring2020/Course_Materials.git`
-  (if your ssh keys aren't setup you can also clone it like this `git clone https://github.com/groundwater-modeling-Spring2020/Course_Materials`)
+  (if your ssh keys aren't setup you can also clone it like this `git clone https://github.com/groundwater-modeling-Spring2020/Course_Materials`)  
 
-5.	**Install MODFLOW**  
-    ##### Mac Users:
+5.	**Install MODFLOW**
+ ##### Mac Users:
     Run the following commands to install MODFLOW using the PyMake
+  - Check if you have gfortran installed bu typing `which gfortran` or `gfortran -v` into command line. If you don't see that you have gfortran installed you should install it from [here](https://github.com/fxcoudert/gfortran-for-macOS/releases)
   - `cd` to a directory where you would like to put your MODFLOW builds
   - `Pip3 install https://github.com/modflowpy/pymake/zipball/master`
   - `git clone https://github.com/modflowpy/pymake`
@@ -63,10 +64,11 @@ Where *modulename* is the name of the module from the list below:
   - `python3 make_mf2005.py`
   - `python3 make_mp7.py`
   - The mp7 and mf2005 folders created in this step have the mode executables that you will need to point to when you are running MODFLOW. If you want to move these somewhere else you can do so now.
+  - If you get an error about missing .h files it could be that your headers are not installed. You can fix that following [these instructions](https://donatstudios.com/MojaveMissingHeaderFiles).
 
-      ##### PC Users:
-      - Follow these install instructions <https://water.usgs.gov/ogw/modflow-nwt/MODFLOW-NWT-Guide/index.html?beginners_guide_to_modflow.htm>
-      - You can download MODFLOW 2005 here: <https://www.usgs.gov/software/modflow-2005-usgs-three-dimensional-finite-difference-ground-water-model>
+   ##### PC Users:
+    - Follow [these install instructions](https://water.usgs.gov/ogw/modflow-nwt/MODFLOW-NWT-Guide/index.html?beginners_guide_to_modflow.htm)
+    - You can download MODFLOW 2005 [here](https://www.usgs.gov/software/modflow-2005-usgs-three-dimensional-finite-difference-ground-water-model).
 
 
 ____
