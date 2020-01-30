@@ -3,9 +3,10 @@
 This repo contains course materials for HWRS 482/582
 __
 ## Announcements:
-Jan 30- 
+Jan 30-
 - Homework 0 is due today by the start of class. It will be graded for completion only.
-- I have office hours today from 10-11 Harshbarger 324e
+- I have office hours today from 10-11 Harshbarger 324e_
+- Homework 1 is due next Thursday February 6th. This is the link to clone:  https://classroom.github.com/a/AkI4KJaD
 __
 ## Repo Contents
 - **Lectures** - Notes and slides from lectures will be posted as they are completed.
