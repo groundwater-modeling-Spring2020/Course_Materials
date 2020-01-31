@@ -1,13 +1,21 @@
 # HWRS 482/582 Applied Groundwater Modeling
 
 This repo contains course materials for HWRS 482/582
+
 __
+## Table of Contents:
+1. [ Announcement. ](#desc)
+2. [ Repo Contents. ](#usage)
+
+__
+<a name="desc"></a>
 ## Announcements:
 Jan 30-
 - Homework 0 is due today by the start of class. It will be graded for completion only.
 - I have office hours today from 10-11 Harshbarger 324e_
 - Homework 1 is due next Thursday February 6th. This is the link to clone:  https://classroom.github.com/a/AkI4KJaD
 __
+<a name="usage"></a>
 ## Repo Contents
 - **Lectures** - Notes and slides from lectures will be posted as they are completed.
 - **Homework_Keys** - Keys for graded homework assignments will be available in this directory after they are submitted.
