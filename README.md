@@ -8,6 +8,11 @@ ____
 2. [ Repo Contents](#repo-contents)
 3. [ Helpful Links and Tutorials](#tutorials)
 4. [ Getting Started - Software install instructions](#softwareinstall)
+  - [ Python](#python)
+  - [ GitHub](#python)
+  - [ Course Repo](#repo)
+  - [ Modflow](#modflow)
+  - [ Jupyter PDF](#jupyterpdf)
 5. [ Software Install Debugging tips](#debug)
 6. [ Getting Started - Homework and GitHub Classroom](#github)
 7. [Optional additional software to install](#additionalsoftware)
@@ -40,6 +45,7 @@ ____
 ## Getting Started - Software install instructions
 For this class we will use the following software packages.  Please follow the following instructions to get this setup on your laptop.
 
+<a name="python"></a>
 1.	**Install Python3 and Modules:** You can download this here. Make sure you pick the version that is right for your operating system <https://www.python.org/downloads/>  
  **MAKE SURE** when you do the install that you check the box to add it to your PATH.
 
@@ -63,6 +69,7 @@ For this class we will use the following software packages.  Please follow the f
 
       Alternatively if you prefer you can install module using [Andaconda](https://www.anaconda.com/distribution/)
 
+<a name="github"></a>
 2.	**Setup account and install Github**
   - Register for account on GitHub: <https://github.com/>
   - Check if you have GitHub installed and if not install it.  Directions for both Windows & Mac here: <http://happygitwithr.com/install-git.html>. Windows users should follow Option 1 in 6.2. Mac users can follow Option 1 in 6.3 if comfortable, otherwise follow Option 2. If you are a windows user make sure you also install [GitBash](https://www.atlassian.com/git/tutorials/git-bash) as is noted in the instructions.
@@ -70,6 +77,7 @@ For this class we will use the following software packages.  Please follow the f
   - Generate a SSH key so you don’t need to enter your password every time you interact with GitHub. Instructions for this can be found here: <https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account>.  
   - Optional but recommended: Install [GitHub Desktop](https://desktop.github.com/) to manage your GitHub repos. This way you won't need to use command line for committing and pushing changes.
 
+<a name="reop"></a>
 3.	**Setup a directory for this class and clone main repo**
 **GitHub Desktop Approach**
   - Go to the [Course Materials  Repo](https://github.com/groundwater-modeling-Spring2020/Course_Materials) and click on the green 'Clone or Download Button'
@@ -81,6 +89,7 @@ For this class we will use the following software packages.  Please follow the f
   - Clone the main course materials repo: `git clone git@github.com:groundwater-modeling-Spring2020/Course_Materials.git`
   (if your ssh keys aren't setup you can also clone it like this `git clone https://github.com/groundwater-modeling-Spring2020/Course_Materials`)  
 
+<a name="modflow"></a>
 4.	**Install MODFLOW**  
    **Mac Users:**  
     Run the following commands to install MODFLOW using the PyMake
@@ -97,6 +106,7 @@ For this class we will use the following software packages.  Please follow the f
     - Follow [these install instructions](https://water.usgs.gov/ogw/modflow-nwt/MODFLOW-NWT-Guide/index.html?beginners_guide_to_modflow.htm)
     - You can download MODFLOW 2005 [here](https://www.usgs.gov/software/modflow-2005-usgs-three-dimensional-finite-difference-ground-water-model).
 
+<a name="jupyterpdf"></a>
 5. **Optional Jupyter Notbook PDF setup**
 
 ____
