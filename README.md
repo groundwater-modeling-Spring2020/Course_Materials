@@ -2,7 +2,7 @@
 
 This repo contains course materials for HWRS 482/582
 
-__
+____
 ## Table of Contents:
 1. [ Announcements](#announcements)
 2. [ Repo Contents](#repo-contents)
@@ -12,21 +12,21 @@ __
 6. [ Getting Started - Homework and GitHub Classroom](#github)
 7. [Optional additional software to install](#additionalsoftware)
 
-__
+____
 <a name="announcements"></a>
 ## Announcements:
 Jan 30-
 - Homework 0 is due today by the start of class. It will be graded for completion only.
 - I have office hours today from 10-11 Harshbarger 324e_
 - Homework 1 is due next Thursday February 6th. This is the link to clone:  https://classroom.github.com/a/AkI4KJaD
-__
+____
 <a name="repo-contents"></a>
 ## Repo Contents
 - **Lectures** - Notes and slides from lectures will be posted as they are completed.
 - **Homework_Keys** - Keys for graded homework assignments will be available in this directory after they are submitted.
 - **References** - General Reference materials.
 
-___
+____
 <a name="tutorials"></a>
 ## Helpful Links and Tutorials
 - **Flopy** <https://modflowpy.github.io/flopydoc/>
@@ -94,7 +94,7 @@ ____
 ## Software Install Debugging tips
 This is a running list of common issues and fixes if you run into issues please report them so we can add to this LIST
 
-## Jupyter Notebooks:
+### Jupyter Notebooks:
 - Issue with python code blocks not running: It turns out the kernels were not starting. Turns out ipykernel needed to be updated (now 5.1.4) for the new Notebook version (6.03) which was updated to work with Python (3.8).The latest ipykernel can be cloned from here - https://github.com/ipython/ipykernel.
 - Problem Exporting PDFs:  When creating the pdf, go to the location of the file in your terminal and enter the following -
 1. export PATH=/Library/TeX/texbin:$PATH
