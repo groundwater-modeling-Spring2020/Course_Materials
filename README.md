@@ -108,6 +108,15 @@ For this class we will use the following software packages.  Please follow the f
 
 <a name="jupyterpdf"></a>
 5. **Optional Jupyter Notbook PDF setup**
+if you want to be able to convert to pdf from  within a Jupyter notebook you will need to do the following extra steps
+   - Install [pandoc](https://pandoc.org/installing.html)
+   - Install the nbconvert python module `pip install nbconvert`
+   - Install XeTex for xelatex
+      - Linux : [TeX Live](http://tug.org/texlive/)
+      - Mac : [MacTex](http://tug.org/mactex/)
+      - Windows : [MikTex](https://miktex.org/)
+    - Once you have done this you can cover to pdf by typing the following from command line in the folder where your notbook sits: `jupyter nbconvert --to pdf MyNotebook.ipynb`
+    - **NOTE** See the debug tip below if it is still not working you may need to export your LaTex path
 
 ____
 <a name="debug"></a>
@@ -116,10 +125,11 @@ This is a running list of common issues and fixes if you run into issues please 
 
 ### Jupyter Notebooks:
 - Issue with python code blocks not running: It turns out the kernels were not starting. Turns out ipykernel needed to be updated (now 5.1.4) for the new Notebook version (6.03) which was updated to work with Python (3.8).The latest ipykernel can be cloned from here - https://github.com/ipython/ipykernel.
-- Problem Exporting PDFs:  When creating the pdf, go to the location of the file in your terminal and enter the following -
-1. export PATH=/Library/TeX/texbin:$PATH
-2. jupyter nbconvert your_notebook.ipynb --to pdf
-[Link for the stack overflow description](https://stackoverflow.com/questions/52300242/solving-500-internal-server-error-nbconvert-failed-xelatex-not-found-in-path)
+- Problem Exporting PDFs:  When creating the pdf, go to the location of the file in your terminal and enter the following:
+  1. export PATH=/Library/TeX/texbin:$PATH
+  2. jupyter nbconvert your_notebook.ipynb --to pdf
+
+   Here is the [Link for the stack overflow description](https://stackoverflow.com/questions/52300242/solving-500-internal-server-error-nbconvert-failed-xelatex-not-found-in-path)
 
 
 ### Mac Flopy install:
