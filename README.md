@@ -40,40 +40,48 @@ ____
 ## Getting Started - Software install instructions
 For this class we will use the following software packages.  Please follow the following instructions to get this setup on your laptop.
 
-1.	**Install Python3:** You can download this here. Make sure you pick the version that is right for your operating system <https://www.python.org/downloads/>  
+1.	**Install Python3 and Modules:** You can download this here. Make sure you pick the version that is right for your operating system <https://www.python.org/downloads/>  
  **MAKE SURE** when you do the install that you check the box to add it to your PATH.
 
-2.	**Install Python Packages:** After you have installed python you will need the following packages. First open a terminal window (terminal for mac or Command Prompt for windows).
+  **Install Python Packages:** After you have installed python you will need the following packages. First open a terminal window (terminal for mac or Command Prompt for windows).
 
-   To install you should run the following command from your terminal window *NOT from within Python*
-   - Mac users:  
-   `pip3 install modulename`
-   - Windows users:  
-   `python -m pip install modulename`
+    To install you should run the following command from your terminal window *NOT from within Python*
+      - Mac users:  
+        `pip3 install modulename`
+      - Windows users:  
+        `python -m pip install modulename`
 
-   Where *modulename* is the name of the module from the list below:
-    - jupyter
-    - numpy
-    - requests
-    - flopy
-    - matplotlib
-    - Pandas
+        Where *modulename* is the name of the module from the list below:
+        - jupyter
+        - numpy
+        - requests
+        - flopy
+        - matplotlib
+        - Pandas
 
-   To check if you have installed these modules you can use the command `pip3 list`. Alternatively if you prefer you can install module using [Andaconda](https://www.anaconda.com/distribution/)
+      To check if you have installed these modules you can use the command `pip3 list`.
 
-3.	**Setup account and install Github**
+      Alternatively if you prefer you can install module using [Andaconda](https://www.anaconda.com/distribution/)
+
+2.	**Setup account and install Github**
   - Register for account on GitHub: <https://github.com/>
   - Check if you have GitHub installed and if not install it.  Directions for both Windows & Mac here: <http://happygitwithr.com/install-git.html>. Windows users should follow Option 1 in 6.2. Mac users can follow Option 1 in 6.3 if comfortable, otherwise follow Option 2. If you are a windows user make sure you also install [GitBash](https://www.atlassian.com/git/tutorials/git-bash) as is noted in the instructions.
   - Setup options in Git. In you have a Mac, you can go to the terminal if you have a Mac (Applications -> Utilities -> Terminal) as shown above. If you have a Windows, open Git BASH, which you should have downloaded in step 3.  You will need to  setup you username:  <https://help.github.com/en/github/using-git/setting-your-username-in-git> and your email: <https://help.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address>
   - Generate a SSH key so you don’t need to enter your password every time you interact with GitHub. Instructions for this can be found here: <https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account>.  
+  - Optional but recommended: Install [GitHub Desktop](https://desktop.github.com/) to manage your GitHub repos. This way you won't need to use command line for committing and pushing changes.
 
-4.	**Setup a directory for this class and clone main repo**
+3.	**Setup a directory for this class and clone main repo**
+**GitHub Desktop Approach**
+  - Go to the [Course Materials  Repo](https://github.com/groundwater-modeling-Spring2020/Course_Materials) and click on the green 'Clone or Download Button'
+  - When you do this you should see an 'Open in Desktop' option  this will create a clone and open it into desktop directly for you.
+
+**Command Line Approach**
   - Make a directory for this class wherever you would like to have it on your computer
   - Open a terminal window and navigate to your course directory (you can do this using the commands cd and pwd)
   - Clone the main course materials repo: `git clone git@github.com:groundwater-modeling-Spring2020/Course_Materials.git`
   (if your ssh keys aren't setup you can also clone it like this `git clone https://github.com/groundwater-modeling-Spring2020/Course_Materials`)  
 
-5.	**Install MODFLOW**  
+4.	**Install MODFLOW**  
    **Mac Users:**  
     Run the following commands to install MODFLOW using the PyMake
   - Check if you have gfortran installed bu typing `which gfortran` or `gfortran -v` into command line. If you don't see that you have gfortran installed you should install it from [here](https://github.com/fxcoudert/gfortran-for-macOS/releases)
@@ -88,6 +96,8 @@ For this class we will use the following software packages.  Please follow the f
     **PC Users:**  
     - Follow [these install instructions](https://water.usgs.gov/ogw/modflow-nwt/MODFLOW-NWT-Guide/index.html?beginners_guide_to_modflow.htm)
     - You can download MODFLOW 2005 [here](https://www.usgs.gov/software/modflow-2005-usgs-three-dimensional-finite-difference-ground-water-model).
+
+5. **Optional Jupyter Notbook PDF setup**
 
 ____
 <a name="debug"></a>
