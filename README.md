@@ -4,24 +4,30 @@ This repo contains course materials for HWRS 482/582
 
 __
 ## Table of Contents:
-1. [ Announcement. ](#desc)
-2. [ Repo Contents. ](#usage)
+1. [ Announcements](#announcements)
+2. [ Repo Contents](#repo-contents)
+3. [ Helpful Links and Tutorials](#tutorials)
+4. [ Getting Started - Software install instructions](#softwareinstall)
+5. [ Software Install Debugging tips](#debug)
+6. [ Getting Started - Homework and GitHub Classroom](#github)
+7. [Optional additional software to install](#additionalsoftware)
 
 __
-<a name="desc"></a>
+<a name="announcements"></a>
 ## Announcements:
 Jan 30-
 - Homework 0 is due today by the start of class. It will be graded for completion only.
 - I have office hours today from 10-11 Harshbarger 324e_
 - Homework 1 is due next Thursday February 6th. This is the link to clone:  https://classroom.github.com/a/AkI4KJaD
 __
-<a name="usage"></a>
+<a name="repo-contents"></a>
 ## Repo Contents
 - **Lectures** - Notes and slides from lectures will be posted as they are completed.
 - **Homework_Keys** - Keys for graded homework assignments will be available in this directory after they are submitted.
 - **References** - General Reference materials.
 
 ___
+<a name="tutorials"></a>
 ## Helpful Links and Tutorials
 - **Flopy** <https://modflowpy.github.io/flopydoc/>
 - **MODFLOW** <https://water.usgs.gov/ogw/modflow/MODFLOW-2005-Guide/>
@@ -30,6 +36,7 @@ ___
 - **Markdown** <https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet>
 ____
 
+<a name="softwareinstall"></a>
 ## Getting Started - Software install instructions
 For this class we will use the following software packages.  Please follow the following instructions to get this setup on your laptop.
 
@@ -77,14 +84,30 @@ For this class we will use the following software packages.  Please follow the f
   - `python3 make_mf2005.py`
   - `python3 make_mp7.py`
   - The mp7 and mf2005 folders created in this step have the mode executables that you will need to point to when you are running MODFLOW. If you want to move these somewhere else you can do so now.
-  - If you get an error about missing .h files it could be that your headers are not installed. You can fix that following [these instructions](https://donatstudios.com/MojaveMissingHeaderFiles).
 
     **PC Users:**  
     - Follow [these install instructions](https://water.usgs.gov/ogw/modflow-nwt/MODFLOW-NWT-Guide/index.html?beginners_guide_to_modflow.htm)
     - You can download MODFLOW 2005 [here](https://www.usgs.gov/software/modflow-2005-usgs-three-dimensional-finite-difference-ground-water-model).
 
+____
+<a name="debug"></a>
+## Software Install Debugging tips
+This is a running list of common issues and fixes if you run into issues please report them so we can add to this LIST
+
+## Jupyter Notebooks:
+- Issue with python code blocks not running: It turns out the kernels were not starting. Turns out ipykernel needed to be updated (now 5.1.4) for the new Notebook version (6.03) which was updated to work with Python (3.8).The latest ipykernel can be cloned from here - https://github.com/ipython/ipykernel.
+- Problem Exporting PDFs:  When creating the pdf, go to the location of the file in your terminal and enter the following -
+1. export PATH=/Library/TeX/texbin:$PATH
+2. jupyter nbconvert your_notebook.ipynb --to pdf
+[Link for the stack overflow description](https://stackoverflow.com/questions/52300242/solving-500-internal-server-error-nbconvert-failed-xelatex-not-found-in-path)
+
+
+### Mac Flopy install:
+- If you get an error about missing .h files it could be that your headers are not installed. You can fix that following [these instructions](https://donatstudios.com/MojaveMissingHeaderFiles).
+- also check that you have a recent version of  gfortran installed and reinstall if  needed per the first step in the instruction
 
 ____
+<a name="github"></a>
 ## Getting Started - Homework and GitHub Classroom
 1. I  will give you a link to an assignment, either through email or the class page. This will happen for each new assignment. You should follow the instructions for getting the homework repository set up. You should now have a repository for this homework.  
 
@@ -107,8 +130,9 @@ ____
 
 5. At some point you'll want to get the updated version of the assignment back onto GitHub, either so that teachers/TAs can help you with your code, or so that it can be graded. You can do this by using a command called `git push` from inside your working directory. After you do this you should be able to see your latest changes on your git repo online.
 
-
-#### Optional additional software to install:
+____
+<a name="additionalsoftware"></a>
+## Optional additional software to install:
 1. **Atom text editor** - This is a great text editor that has GitHub integration. <https://atom.io/>
 2. **GitHub Desktop** - A GUI tool for downloading and managing git repos. <https://desktop.github.com/>
 3. **GitKraken** – A tool for managing GitHub repos (Note the free version won't do private repos) <https://www.gitkraken.com/download>
