@@ -8,11 +8,11 @@ ____
 2. [ Repo Contents](#repo-contents)
 3. [ Helpful Links and Tutorials](#tutorials)
 4. [ Getting Started - Software install instructions](#softwareinstall)
-  - [ Python](#python)
-  - [ GitHub](#python)
-  - [ Course Repo](#repo)
-  - [ Modflow](#modflow)
-  - [ Jupyter PDF](#jupyterpdf)
+   - [ Python](#python)
+   - [ GitHub](#python)
+   - [ Course Repo](#repo)
+   - [ Modflow](#modflow)
+   - [ Jupyter PDF](#jupyterpdf)
 5. [ Software Install Debugging tips](#debug)
 6. [ Getting Started - Homework and GitHub Classroom](#github)
 7. [Optional additional software to install](#additionalsoftware)
@@ -91,7 +91,7 @@ For this class we will use the following software packages.  Please follow the f
 
 <a name="modflow"></a>
 4.	**Install MODFLOW**  
-   **Mac Users:**  
+  **Mac Users:**  
     Run the following commands to install MODFLOW using the PyMake
   - Check if you have gfortran installed bu typing `which gfortran` or `gfortran -v` into command line. If you don't see that you have gfortran installed you should install it from [here](https://github.com/fxcoudert/gfortran-for-macOS/releases)
   - `cd` to a directory where you would like to put your MODFLOW builds
@@ -102,7 +102,7 @@ For this class we will use the following software packages.  Please follow the f
   - `python3 make_mp7.py`
   - The mp7 and mf2005 folders created in this step have the mode executables that you will need to point to when you are running MODFLOW. If you want to move these somewhere else you can do so now.
 
-    **PC Users:**  
+  **PC Users:**  
     - Follow [these install instructions](https://water.usgs.gov/ogw/modflow-nwt/MODFLOW-NWT-Guide/index.html?beginners_guide_to_modflow.htm)
     - You can download MODFLOW 2005 [here](https://www.usgs.gov/software/modflow-2005-usgs-three-dimensional-finite-difference-ground-water-model).
 
