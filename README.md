@@ -11,7 +11,7 @@ ____
    - [ Python](#python)
    - [ GitHub](#python)
    - [ Course Repo](#repo)
-   - [ Modflow](#modflow)
+   - [ MODFLOW](#modflow)
    - [ Jupyter PDF](#jupyterpdf)
 5. [ Software Install Debugging tips](#debug)
 6. [ Getting Started - Homework and GitHub Classroom](#github)
@@ -46,12 +46,12 @@ ____
 For this class we will use the following software packages.  Please follow the following instructions to get this setup on your laptop.
 
 <a name="python"></a>
-1.	**Install Python3 and Modules:** You can download this here. Make sure you pick the version that is right for your operating system <https://www.python.org/downloads/>  
+1.	**Install Python3 and Modules:** You can download this [here](https://www.python.org/downloads/). Make sure you pick the version that is right for your operating system.
  **MAKE SURE** when you do the install that you check the box to add it to your PATH.
 
-  **Install Python Packages:** After you have installed python you will need the following packages. First open a terminal window (terminal for mac or Command Prompt for windows).
+    **Install Python Packages:** After you have installed python you will need the following packages. First open a terminal window (terminal for mac or Command Prompt for windows).
 
-    To install you should run the following command from your terminal window *NOT from within Python*
+    To install you should run the following command from your terminal window **NOT** from within Python
       - Mac users:  
         `pip3 install modulename`
       - Windows users:  
@@ -72,9 +72,9 @@ For this class we will use the following software packages.  Please follow the f
 <a name="github"></a>
 2.	**Setup account and install Github**
   - Register for account on GitHub: <https://github.com/>
-  - Check if you have GitHub installed and if not install it.  Directions for both Windows & Mac here: <http://happygitwithr.com/install-git.html>. Windows users should follow Option 1 in 6.2. Mac users can follow Option 1 in 6.3 if comfortable, otherwise follow Option 2. If you are a windows user make sure you also install [GitBash](https://www.atlassian.com/git/tutorials/git-bash) as is noted in the instructions.
-  - Setup options in Git. In you have a Mac, you can go to the terminal if you have a Mac (Applications -> Utilities -> Terminal) as shown above. If you have a Windows, open Git BASH, which you should have downloaded in step 3.  You will need to  setup you username:  <https://help.github.com/en/github/using-git/setting-your-username-in-git> and your email: <https://help.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address>
-  - Generate a SSH key so you don’t need to enter your password every time you interact with GitHub. Instructions for this can be found here: <https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account>.  
+  - Check if you have GitHub installed and if not install it.  Directions for both Windows & Mac [here](http://happygitwithr.com/install-git.html). Windows users should follow Option 1 in 6.2. Mac users can follow Option 1 in 6.3 if comfortable, otherwise follow Option 2. If you are a windows user make sure you also install [GitBash](https://www.atlassian.com/git/tutorials/git-bash) as is noted in the instructions.
+  - Setup options in Git. In you have a Mac, you can go to the terminal if you have a Mac (Applications -> Utilities -> Terminal) as shown above. If you have a Windows, open Git BASH, which you should have downloaded in step 3.  You will need to  setup you [username](https://help.github.com/en/github/using-git/setting-your-username-in-git) and your [email](https://help.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address)
+  - Generate a SSH key so you don’t need to enter your password every time you interact with GitHub. Instructions for this can be found [here](https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account).  
   - Optional but recommended: Install [GitHub Desktop](https://desktop.github.com/) to manage your GitHub repos. This way you won't need to use command line for committing and pushing changes.
 
 <a name="reop"></a>
