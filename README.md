@@ -5,6 +5,7 @@ This repo contains course materials for HWRS 482/582
 ____
 ## Table of Contents:
 1. [ Announcements](#announcements)
+1. [ Homework](#homeworks)
 2. [ Repo Contents](#repo-contents)
 3. [ Helpful Links and Tutorials](#tutorials)
 4. [ Getting Started - Software install instructions](#softwareinstall)
@@ -20,13 +21,22 @@ ____
 ____
 <a name="announcements"></a>
 ## Announcements:
+Feb 11-
+- Reminder that there is no class this Thursday February 13th and also no office hours.
+
+
 Jan 30-
 - Homework 0 is due today by the start of class. It will be graded for completion only.
 - I have office hours today from 10-11 Harshbarger 324e_
 - Homework 1 is due next Thursday February 6th. This is the link to clone:  https://classroom.github.com/a/AkI4KJaD
+
+<a name="homeworks"></a>
+## Homework assignments:
+- Homework 2 (*Due Tuesday February 18*)  https://classroom.github.com/a/vqgQiD4l
+- Homework 1 (*Due Thursday Feburary 6*)  https://classroom.github.com/a/AkI4KJaD
 ____
 <a name="repo-contents"></a>
-## Repo Contents
+## Repo ContentsÂ
 - **Lectures** - Notes and slides from lectures will be posted as they are completed.
 - **Homework_Keys** - Keys for graded homework assignments will be available in this directory after they are submitted.
 - **References** - General Reference materials.
