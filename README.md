@@ -6,6 +6,7 @@ ____
 ## Table of Contents:
 1. [ Announcements](#announcements)
 1. [ Homework](#homeworks)
+1. [ Discussion Leaders](#discuss)
 2. [ Repo Contents](#repo-contents)
 3. [ Helpful Links and Tutorials](#tutorials)
 4. [ Getting Started - Software install instructions](#softwareinstall)
@@ -34,6 +35,15 @@ ____
 ## Homework assignments:
 - Homework 2 (*Due Tuesday February 18*)  https://classroom.github.com/a/vqgQiD4l
 - Homework 1 (*Due Thursday Feburary 6*)  https://classroom.github.com/a/AkI4KJaD
+
+____
+<a name="discusss"></a>
+## Discussion Leaders:
+ - Feb. 18: Justin & Rachel  
+ - Feb. 25: Dave and Danielle
+ - Mar. 3: Amanda and Ben
+ - Mar. 17: Abe and Tesfa
+ - Mar. 24: Vived and Jake
 ____
 <a name="repo-contents"></a>
 ## Repo Contents
