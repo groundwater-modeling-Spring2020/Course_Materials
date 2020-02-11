@@ -36,7 +36,7 @@ ____
 - Homework 1 (*Due Thursday Feburary 6*)  https://classroom.github.com/a/AkI4KJaD
 ____
 <a name="repo-contents"></a>
-## Repo ContentsÂ
+## Repo Contents
 - **Lectures** - Notes and slides from lectures will be posted as they are completed.
 - **Homework_Keys** - Keys for graded homework assignments will be available in this directory after they are submitted.
 - **References** - General Reference materials.
