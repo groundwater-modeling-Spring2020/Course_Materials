@@ -29,7 +29,7 @@ Jan 30-
 - Homework 0 is due today by the start of class. It will be graded for completion only.
 - I have office hours today from 10-11 Harshbarger 324e_
 - Homework 1 is due next Thursday February 6th. This is the link to clone:  https://classroom.github.com/a/AkI4KJaD
-
+____
 <a name="homeworks"></a>
 ## Homework assignments:
 - Homework 2 (*Due Tuesday February 18*)  https://classroom.github.com/a/vqgQiD4l
