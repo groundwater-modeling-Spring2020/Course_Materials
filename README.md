@@ -22,8 +22,8 @@ ____
 ____
 <a name="announcements"></a>
 ## Announcements:
-** Feb 18 **
-- reminder no class on the 24th
+**Feb 18**
+- I am traveling and there will be no office hours on the 24th. 
 
 **Feb 11**
 - Reminder that there is no class this Thursday February 13th and also no office hours.
