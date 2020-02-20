@@ -23,7 +23,7 @@ ____
 <a name="announcements"></a>
 ## Announcements:
 **Feb 18**
-- I am traveling and there will be no office hours on the 24th. 
+- I am traveling and there will be no office hours on the 24th.
 
 **Feb 11**
 - Reminder that there is no class this Thursday February 13th and also no office hours.
@@ -137,6 +137,7 @@ if you want to be able to convert to pdf from  within a Jupyter notebook you wil
       - Windows : [MikTex](https://miktex.org/)
     - Once you have done this you can cover to pdf by typing the following from command line in the folder where your notbook sits: `jupyter nbconvert --to pdf MyNotebook.ipynb`
     - **NOTE** See the debug tip below if it is still not working you may need to export your LaTex path
+
 
 ____
 <a name="debug"></a>
