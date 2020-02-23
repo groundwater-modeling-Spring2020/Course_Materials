@@ -35,16 +35,17 @@ ____
 ____
 <a name="homeworks"></a>
 ## Homework assignments:
+- Homework 3 (*Due Thursday February 27*) https://classroom.github.com/a/bf6ehAbc
 - Homework 2 (*Due Tuesday February 18*)  https://classroom.github.com/a/vqgQiD4l
-- Homework 1 (*Due Thursday Feburary 6*)  https://classroom.github.com/a/AkI4KJaD
+- Homework 1 (*Due Thursday February 6*)  https://classroom.github.com/a/AkI4KJaD
 ____
 <a name="discusss"></a>
 ## Discussion Leaders:
  - Feb. 18: Justin & Rachel  
  - Feb. 25: Dave and Danielle
- - Mar. 3: Amanda and Ben
- - Mar. 17: Abe and Tesfa
- - Mar. 24: Vived and Jake
+ - Mar. 5: Amanda and Ben
+ - Mar. 19: Abe and Tesfa
+ - Mar. 26: Vivek and Jake
 ____
 <a name="repo-contents"></a>
 ## Repo Contents
