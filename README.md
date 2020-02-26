@@ -22,6 +22,9 @@ ____
 ____
 <a name="announcements"></a>
 ## Announcements:
+**Feb 25**
+- Office hours this week are moved. I will have office hours on Wednesday the 26th from 10-11 and not on Thursday.
+
 **Feb 18**
 - I am traveling and there will be no office hours on the 24th.
 
