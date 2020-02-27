@@ -22,6 +22,9 @@ ____
 ____
 <a name="announcements"></a>
 ## Announcements:
+**Feb 27**
+- Homework 2 grades are now posted in your submission repos. Homework 4 will be posted this weekend and due next Thursday.
+
 **Feb 25**
 - Office hours this week are moved. I will have office hours on Wednesday the 26th from 10-11 and not on Thursday.
 
