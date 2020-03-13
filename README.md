@@ -4,6 +4,7 @@ This repo contains course materials for HWRS 482/582
 
 ____
 ## Table of Contents:
+1. [ Zoom Info](#zoom)
 1. [ Announcements](#announcements)
 1. [ Homework](#homeworks)
 1. [ Discussion Leaders](#discuss)
@@ -18,10 +19,29 @@ ____
 5. [ Software Install Debugging tips](#debug)
 6. [ Getting Started - Homework and GitHub Classroom](#github)
 7. [Optional additional software to install](#additionalsoftware)
+____
+<a name="zoom"></a>
+## Zoom Meeting Information
+
+#### Class (Tuesday/Thursday, 12:30-1:45)
+- Zoom meeting ID: 475 073 103
+- Link: https://arizona.zoom.us/j/475073103
+
+#### Monday Office Hours (Monday 1:30 - 2:30)
+- Zoom Meeting ID: 955 245 726
+- Link: https://arizona.zoom.us/j/955245726
+
+#### Thursday Office Hours  (Thursday 10:00 - 11:00)
+- Zoom Meeting ID: 792 507 016
+- Link: https://arizona.zoom.us/j/792507016 Â
 
 ____
 <a name="announcements"></a>
 ## Announcements:
+**March 13**
+- Correction to HW5 question 2. Here is the correct wording:
+  2. Go back to the original 0 ET rate for the steady state initialization of the model. This time run the transient  model for for more years to achieve an alternate steady state solution. How does this solution compare to the solution you determined in question 1. How did you determine that you are at steady state? (Hint it would be a good idea to decrease your outputs from daily to once every 5 days by adjusting the nstp variable).
+
 **Feb 27**
 - Homework 2 grades are now posted in your submission repos. Homework 4 will be posted this weekend and due next Thursday.
 
