@@ -14,7 +14,7 @@ For this assignment we will be dividing into groups and creating jupyter noteboo
 2.	This is a team assignment so you should just create one notebook for your group
 
 ### Data types:
-#### 1. Lists
+#### 1. Lists (Justin & Jake)
 -	What is a list?
 -	What types of things can go into it?
 -	How do lists with multiple dimensions work (i.e. when we use the [][] notation)?
@@ -24,7 +24,7 @@ For this assignment we will be dividing into groups and creating jupyter noteboo
 -	How do you get parts of a list out?
 -	How can we write the elements of a list to a file or plot it?
 
-#### 2. Dictionaries
+#### 2. Dictionaries (Amanda, Danielle and Abe)
 -	What is a dictionary?
 -	What types of things can go into it?
 -	How is it different than a list?
@@ -33,7 +33,7 @@ For this assignment we will be dividing into groups and creating jupyter noteboo
 -	How do you manipulate or change it?
 -	How can you write it out to a file or plot it?  
 
-#### 3. Numpy Arrays and numpy rec.arrays:
+#### 3. Numpy Arrays and numpy rec.arrays (Rachel and Vivek)
 -	What is a numpy array?
 -	How is this different form a list?
 -	How can we see what’s in it and what its properties are?
@@ -45,7 +45,7 @@ For this assignment we will be dividing into groups and creating jupyter noteboo
 -	How do we get things out of it and manipulate it?
 -	Provide examples of both regular arrays and rec arrays in your submission.
 
-#### 4. Flopy data types, head and budget files:
+#### 4. Flopy data types, head and budget files (Ben, Dave & Tesfa)
 -	How do we read in these files?
 -	What type of object do we have when we read it in?
 -	How can we learn about the properties and variables associated with these files?

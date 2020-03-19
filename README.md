@@ -38,6 +38,9 @@ ____
 ____
 <a name="announcements"></a>
 ## Announcements:
+**March 19**
+- Homework 6 is describe din the Lectures/Python_Tutorials folder.  I wrote everyones names by the data type they are assigned to.  Please submit 1 ipython notebook to me by 12:00 on Tuesday and be prepared to present.
+
 **March 13**
 - Correction to HW5 question 2. Here is the correct wording:
   2. Go back to the original 0 ET rate for the steady state initialization of the model. This time run the transient  model for for more years to achieve an alternate steady state solution. How does this solution compare to the solution you determined in question 1. How did you determine that you are at steady state? (Hint it would be a good idea to decrease your outputs from daily to once every 5 days by adjusting the nstp variable).
@@ -61,6 +64,7 @@ ____
 ____
 <a name="homeworks"></a>
 ## Homework assignments:
+- Homework 6 (*Due Tuesday March 24*) No repo to clone. Create your own notebook as a group and email to me by 12:00. 
 - Homework 5 (*Due Thursday March 19*) https://classroom.github.com/a/cwN2GlJF
 - Homework 4 (*Due Thursday March 5*) https://classroom.github.com/a/B0Up8OcI
 - Homework 3 (*Due Thursday February 27*) https://classroom.github.com/a/bf6ehAbc
