@@ -73,7 +73,7 @@ ____
  - Feb. 25: Dave and Danielle
  - Mar. 5: Amanda and Ben
  - Mar. 19: Abe and Tesfa
- - Mar. 26: Vivek and Jake
+ - Mar. 31: Vivek and Jake
 ____
 <a name="repo-contents"></a>
 ## Repo Contents
