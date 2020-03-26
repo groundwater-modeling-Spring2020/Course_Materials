@@ -64,7 +64,8 @@ ____
 ____
 <a name="homeworks"></a>
 ## Homework assignments:
-- Homework 6 (*Due Tuesday March 24*) No repo to clone. Create your own notebook as a group and email to me by 12:00. 
+- Homework 7 (*Due Thursday April 2*) https://classroom.github.com/a/OmX-bn_S
+- Homework 6 (*Due Tuesday March 24*) No repo to clone. Create your own notebook as a group and email to me by 12:00.
 - Homework 5 (*Due Thursday March 19*) https://classroom.github.com/a/cwN2GlJF
 - Homework 4 (*Due Thursday March 5*) https://classroom.github.com/a/B0Up8OcI
 - Homework 3 (*Due Thursday February 27*) https://classroom.github.com/a/bf6ehAbc
@@ -77,7 +78,7 @@ ____
  - Feb. 25: Dave and Danielle
  - Mar. 5: Amanda and Ben
  - Mar. 19: Abe and Tesfa
- - Mar. 31: Vivek and Jake
+ - Apr. 2: Vivek and Jake
 ____
 <a name="repo-contents"></a>
 ## Repo Contents
