@@ -34,12 +34,20 @@ ____
 #### Thursday Office Hours  (Thursday 10:00 - 11:00)
 - Zoom Meeting ID: 792 507 016
 - Link: https://arizona.zoom.us/j/792507016 Â
+#### Final project groups:
+ - Group 1: Amanda, Justin, Tesfa, Vivek
+ - Group 2: Ben, Danielle, Jake
+ - Group 3: Abe, Rachel, Dave
 
 ____
 <a name="announcements"></a>
 ## Announcements:
+**April 3**
+- Homework 8 is posted and I have assigned the final project teams above.
+Each group is responsible for one part of the assignment. You will just submit a powerpoint and one jupyter notebook for your group and you don't have to write individual submissions next week.
+
 **March 19**
-- Homework 6 is describe din the Lectures/Python_Tutorials folder.  I wrote everyones names by the data type they are assigned to.  Please submit 1 ipython notebook to me by 12:00 on Tuesday and be prepared to present.
+- Homework 6 is described in the Lectures/Python_Tutorials folder.  I wrote everyones names by the data type they are assigned to.  Please submit 1 ipython notebook to me by 12:00 on Tuesday and be prepared to present.
 
 **March 13**
 - Correction to HW5 question 2. Here is the correct wording:
@@ -64,6 +72,7 @@ ____
 ____
 <a name="homeworks"></a>
 ## Homework assignments:
+- Homework 8 (*Due Thursday April 8*) https://classroom.github.com/a/aNMCj9JD
 - Homework 7 (*Due Thursday April 2*) https://classroom.github.com/a/OmX-bn_S
 - Homework 6 (*Due Tuesday March 24*) No repo to clone. Create your own notebook as a group and email to me by 12:00.
 - Homework 5 (*Due Thursday March 19*) https://classroom.github.com/a/cwN2GlJF
