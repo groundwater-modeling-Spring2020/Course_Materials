@@ -32,8 +32,11 @@ ____
 # Groups
 You have been divided into three stakeholder groups:
 1. **GroMore Industries**: Amanda, Justin, Tesfa, Vivek
+   - https://github.com/groundwater-modeling-Spring2020/GroMore_Project
 2. **Friends of the Environment**: Ben, Danielle, Jake
+   - https://github.com/groundwater-modeling-Spring2020/FoE_Project
 3. **The Town of Aguaseca**: Abe, Rachel, Dave
+   - https://github.com/groundwater-modeling-Spring2020/Aguaseca_Project
 
 You will perform two functions for your group.  First, you will try to put yourself in the minds of your stakeholder - to look at the proposed agricultural activity from their (biased) point of view.  Second, you will act as consulting hydrogeologists for your stakeholder - helping them to bring scientific analyses to their decision making process.
 
