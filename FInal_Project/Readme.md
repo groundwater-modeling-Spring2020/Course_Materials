@@ -12,6 +12,7 @@ ____
 <a name="assignments"></a>
 # Assignments
 1. **Scenarios 1-2 (Thursday April 16)**  - *GroMore pressenting*
+    - Before getting started each group should make a GitHub policy for collaboration. 
     - Each group should complete scenarios 1-2 in your shared github repos
     - Submit 1 report for your group and 1 jupyter notebook that sumarizes your findings
     - Group discussion leaders should also submit a ppt presentation for the discussion
