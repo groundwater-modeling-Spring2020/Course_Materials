@@ -58,11 +58,11 @@ The right boundary in all of the layers has a constant head of 70 m relative to 
 
 Recharge occurs at a rate of 4E-5 m/day in the leftmost 15 columns and is zero elsewhere.  
 
-A stream extends from the left to the right boundary in row 26.  The stream width, length, and thickness are 1.0.  No flow is entering the stream (from tributaries).  
+A stream extends from the left to the right boundary in row 26.  The stream width, and thickness are 1.0.  No flow is entering the stream (from tributaries).  
 
 The K of the streambed is 1000 m/day The streambed elevation is 1.0 m below ground surface and the stage is 0.5 m.  
 
-The stream is a 'weak sink' with a strength of 0.5, meaning that half of the particles that enter a stream cell are captured by the stream.  (This is set under MODPATH/Particle Options.).
+The stream is a 'weak sink' 
 
 ET is zero in the left half of the domain.  ET is 1E-5 m/day in the right half of the domain.  ET occurs at a rate of 5E-5 m/day in a riparian area that extends from the left boundary to the right boundary and occupies rows 23 to 29, inclusive.  The extinction depth is 10 m everywhere.
 
