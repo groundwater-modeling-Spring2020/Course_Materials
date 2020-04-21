@@ -74,9 +74,16 @@ ET for the crop is zero - it is accounted for in the calculated recharge beneath
 
 Water is provided for irrigation from a well that is completed in the top layer at row 12 and column 14.  The pumping rate is equal to the crop water demand plus 20% for excess irrigation plus 30% for irrigation inefficiency.  For wheat, the pumping rate is 0.004 *0.125 * (1.0+0.2+0.3) * 2000 * 2000 = 3000 m3/day).  The resulting pumping rates are: 3000; 4500; and 6000 m3/day for wheat, pistachios, and cotton, respectively.  
 
-Add two ‘monitoring wells’ to monitor the transient conditions.  Both should be in layer one, one at [25000, 25000] and the other at [12500, 12500].
+Add two ‘monitoring wells’ to monitor the transient conditions.  Both should be in layer one, one at [25000, 25000] and the other at [12500, 12500] 
 
 For simplicity, we will consider a year to be comprised of 12 30-day months.
+
+Hint after convertint well locations they should be indexed in Python as follows:
+[layer, row, col]
+- Aquaseca [2, 29, 37]  
+- Ag well [0,38, 12] 
+- Monitoring well 1 [0, 25, 24] 
+- Monitoring well 2 [0, 37,12] 
 
 ____
 <a name="scenarios"></a>
