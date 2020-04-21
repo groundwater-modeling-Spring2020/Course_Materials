@@ -11,17 +11,17 @@ ____
 ____
 <a name="assignments"></a>
 # Assignments
-1. **Scenarios 1-2 (Thursday April 16)**  - *GroMore pressenting*
+1. **Scenarios 1-2 (Tuesday April 21)**  - *GroMore pressenting*
     - Before getting started each group should make a GitHub policy for collaboration.
     - Each group should complete scenarios 1-2 in your shared github repos
     - Submit 1 report for your group and 1 jupyter notebook that sumarizes your findings
     - Group discussion leaders should also submit a ppt presentation for the discussion
 1. **Scenarios 3-4 (Tuesday April 21)** - *FoE presenting*
-  - Each group should complete scenarios 1-2 in your shared github repos
+  - Each group should complete scenarios 3-4 in your shared github repos
   - Submit 1 report for your group and 1 jupyter notebook that sumarizes your findings
   - Group discussion leaders should also submit a ppt presentation for the discussion
 2. **Scenarios 5-6 (Thursday April 23)** - *Town of Aquaseca presenting*
-  - Each group should complete scenarios 1-2 in your shared github repos
+  - Each group should complete scenarios 5-6 in your shared github repos
   - Submit 1 report for your group and 1 jupyter notebook that sumarizes your findings
   - Group discussion leaders should also submit a ppt presentation for the discussion
 1. **Ensembles (Tuesday April 28)**  
@@ -58,11 +58,11 @@ The right boundary in all of the layers has a constant head of 70 m relative to 
 
 Recharge occurs at a rate of 4E-5 m/day in the leftmost 15 columns and is zero elsewhere.  
 
-A stream extends from the left to the right boundary in row 26.  The stream width, length, and thickness are 1.0.  No flow is entering the stream (from tributaries).  
+A stream extends from the left to the right boundary in row 26.  The stream width, and thickness are 1.0.  No flow is entering the stream (from tributaries).  
 
 The K of the streambed is 1000 m/day The streambed elevation is 1.0 m below ground surface and the stage is 0.5 m.  
 
-The stream is a 'weak sink' with a strength of 0.5, meaning that half of the particles that enter a stream cell are captured by the stream.  (This is set under MODPATH/Particle Options.).
+The stream is a 'weak sink' 
 
 ET is zero in the left half of the domain.  ET is 1E-5 m/day in the right half of the domain.  ET occurs at a rate of 5E-5 m/day in a riparian area that extends from the left boundary to the right boundary and occupies rows 23 to 29, inclusive.  The extinction depth is 10 m everywhere.
 
@@ -74,9 +74,16 @@ ET for the crop is zero - it is accounted for in the calculated recharge beneath
 
 Water is provided for irrigation from a well that is completed in the top layer at row 12 and column 14.  The pumping rate is equal to the crop water demand plus 20% for excess irrigation plus 30% for irrigation inefficiency.  For wheat, the pumping rate is 0.004 *0.125 * (1.0+0.2+0.3) * 2000 * 2000 = 3000 m3/day).  The resulting pumping rates are: 3000; 4500; and 6000 m3/day for wheat, pistachios, and cotton, respectively.  
 
-Add two ‘monitoring wells’ to monitor the transient conditions.  Both should be in layer one, one at [25000, 25000] and the other at [12500, 12500].
+Add two ‘monitoring wells’ to monitor the transient conditions.  Both should be in layer one, one at [25000, 25000] and the other at [12500, 12500] 
 
 For simplicity, we will consider a year to be comprised of 12 30-day months.
+
+Hint after convertint well locations they should be indexed in Python as follows:
+[layer, row, col]
+- Aquaseca [2, 29, 37]  
+- Ag well [0,38, 12] 
+- Monitoring well 1 [0, 25, 24] 
+- Monitoring well 2 [0, 37,12] 
 
 ____
 <a name="scenarios"></a>
