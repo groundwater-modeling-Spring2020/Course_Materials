@@ -11,17 +11,17 @@ ____
 ____
 <a name="assignments"></a>
 # Assignments
-1. **Scenarios 1-2 (Thursday April 16)**  - *GroMore pressenting*
+1. **Scenarios 1-2 (Tuesday April 21)**  - *GroMore pressenting*
     - Before getting started each group should make a GitHub policy for collaboration.
     - Each group should complete scenarios 1-2 in your shared github repos
     - Submit 1 report for your group and 1 jupyter notebook that sumarizes your findings
     - Group discussion leaders should also submit a ppt presentation for the discussion
 1. **Scenarios 3-4 (Tuesday April 21)** - *FoE presenting*
-  - Each group should complete scenarios 1-2 in your shared github repos
+  - Each group should complete scenarios 3-4 in your shared github repos
   - Submit 1 report for your group and 1 jupyter notebook that sumarizes your findings
   - Group discussion leaders should also submit a ppt presentation for the discussion
 2. **Scenarios 5-6 (Thursday April 23)** - *Town of Aquaseca presenting*
-  - Each group should complete scenarios 1-2 in your shared github repos
+  - Each group should complete scenarios 5-6 in your shared github repos
   - Submit 1 report for your group and 1 jupyter notebook that sumarizes your findings
   - Group discussion leaders should also submit a ppt presentation for the discussion
 1. **Ensembles (Tuesday April 28)**  
