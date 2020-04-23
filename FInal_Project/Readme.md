@@ -16,21 +16,23 @@ ____
     - Each group should complete scenarios 1-2 in your shared github repos
     - Submit 1 report for your group and 1 jupyter notebook that sumarizes your findings
     - Group discussion leaders should also submit a ppt presentation for the discussion
-1. **Scenarios 3-4 (Tuesday April 21)** - *FoE presenting*
+1. **Scenarios 3-4 (Thursday April 23)** - *FoE presenting*
   - Each group should complete scenarios 3-4 in your shared github repos
   - Submit 1 report for your group and 1 jupyter notebook that sumarizes your findings
   - Group discussion leaders should also submit a ppt presentation for the discussion
-2. **Scenarios 5-6 (Thursday April 23)** - *Town of Aquaseca presenting*
+2. **Scenarios 5-6 (Tuesday April 28)** - *Town of Aquaseca presenting*
   - Each group should complete scenarios 5-6 in your shared github repos
   - Submit 1 report for your group and 1 jupyter notebook that sumarizes your findings
   - Group discussion leaders should also submit a ppt presentation for the discussion
-1. **Ensembles (Tuesday April 28)**  
+1. **Ensembles**
+  - Part 1: (Tuesday April 28) -  I will share a link to a google sheet. Each group should fill in their proposed scenarios here along with their projected rankings of scenarios.
+  - Part 1: (Thursday April 30)- Each group should complete their simulatons and come prepared with their presentation of results. 
 4. **Advocacy models (Tuesday May 6)**
 
 
 ____
 <a name="groups"></a>
-# Group Information 
+# Group Information
 You have been divided into three stakeholder groups:
 1. **GroMore Industries**: Amanda, Justin, Tesfa, Vivek
    - https://github.com/groundwater-modeling-Spring2020/GroMore_Project
@@ -62,7 +64,7 @@ A stream extends from the left to the right boundary in row 26.  The stream widt
 
 The K of the streambed is 1000 m/day The streambed elevation is 1.0 m below ground surface and the stage is 0.5 m.  
 
-The stream is a 'weak sink' 
+The stream is a 'weak sink'
 
 ET is zero in the left half of the domain.  ET is 1E-5 m/day in the right half of the domain.  ET occurs at a rate of 5E-5 m/day in a riparian area that extends from the left boundary to the right boundary and occupies rows 23 to 29, inclusive.  The extinction depth is 10 m everywhere.
 
@@ -74,16 +76,16 @@ ET for the crop is zero - it is accounted for in the calculated recharge beneath
 
 Water is provided for irrigation from a well that is completed in the top layer at row 12 and column 14.  The pumping rate is equal to the crop water demand plus 20% for excess irrigation plus 30% for irrigation inefficiency.  For wheat, the pumping rate is 0.004 *0.125 * (1.0+0.2+0.3) * 2000 * 2000 = 3000 m3/day).  The resulting pumping rates are: 3000; 4500; and 6000 m3/day for wheat, pistachios, and cotton, respectively.  
 
-Add two ‘monitoring wells’ to monitor the transient conditions.  Both should be in layer one, one at [25000, 25000] and the other at [12500, 12500] 
+Add two ‘monitoring wells’ to monitor the transient conditions.  Both should be in layer one, one at [25000, 25000] and the other at [12500, 12500]
 
 For simplicity, we will consider a year to be comprised of 12 30-day months.
 
 Hint after convertint well locations they should be indexed in Python as follows:
 [layer, row, col]
 - Aquaseca [2, 29, 37]  
-- Ag well [0,38, 12] 
-- Monitoring well 1 [0, 25, 24] 
-- Monitoring well 2 [0, 37,12] 
+- Ag well [0,38, 12]
+- Monitoring well 1 [0, 25, 24]
+- Monitoring well 2 [0, 37,12]
 
 ____
 <a name="scenarios"></a>
@@ -149,7 +151,7 @@ This is seven settings that you could change.  Think of each of these as having 
  - Kratio_streambed = [1e-2,1e-1, 1]       # ratio of K in streambed to baseline K (-)
 
 
-To organize our thinking about different model scenarios we are going to use teh concept of a model tree. If we define a set the number of elements (ne) to be varied (you are considering 7) and the number of different values (nv) for each element (in this case we have three values: 0 = lowest; 1 = middle; 2 = highest), we can define the total number of possible models as ne^nv.  You have 343 models to choose from.  To keep track of the models, you can name them based on its element values, in order.  For example, a model with low values for every variable but high value for riparian ET would be  named model_1111131 and a model with  average values for the two conductivity parameters but low values for the rest would be model_2211111.  Thus, the name directly defines the values of each parameter.  It also describes the relationship between that model and other models.   This requires that we define the elements to vary and THE ORDER that they are listed in the model tree.  We also have to determine the number of values and the specific values for each element.  The order of the parameters. Follow the  ordering above and the prescribed high medium and low values for your model.  Be sure to familiarize yourself with them and ask questions if anything is unclear.  
+To organize our thinking about different model scenarios we are going to use teh concept of a model tree. If we define a set the number of elements (ne) to be varied (you are considering 7) and the number of different values (nv) for each element (in this case we have three values: 1 = lowest; 2 = middle; 3 = highest), we can define the total number of possible models as ne^nv.  You have 343 models to choose from.  To keep track of the models, you can name them based on its element values, in order.  For example, a model with low values for every variable but high value for riparian ET would be  named model_1111131 and a model with  average values for the two conductivity parameters but low values for the rest would be model_2211111.  Thus, the name directly defines the values of each parameter.  It also describes the relationship between that model and other models.   This requires that we define the elements to vary and THE ORDER that they are listed in the model tree.  We also have to determine the number of values and the specific values for each element.  The order of the parameters. Follow the  ordering above and the prescribed high medium and low values for your model.  Be sure to familiarize yourself with them and ask questions if anything is unclear.  
 
 #### Instructions:
 1. As group propose 10 combinations of the parameters listed above that you think will lead to the 'most different set' of predicted levels of drawdown in the town well.  Your goal is not to choose sets of parameter values that lead to the highest or lowest impacts.  Rather, you want to define models that are 'most different from each other' with respect to this prediction of interest. This exercise is designed to start you thinking about building model ensembles.  First, why would we want to have models that represent the range of outcomes of interest rather than just the extremes?  Second, how do we decide which settings to vary?  Third, related to the first, why don't we just vary everything?
@@ -171,7 +173,7 @@ Please email submissions 1 & 2 to me by the start of class so I can add to the c
    - A discussion of how well you did
    - Examples and explanation of two of your 'worst mistakes'
 3. One Jupyter notebook that includes your simulations (Its also fine if you have your analysis in a separate Jupyter notebook but they should be easy to follow).
-3. The discussion leaders for this week will create a  google sheet and share it with everyone in the class.  There should be a column for stakeholder name, model number (see above), and the -/0/+ setting for each parameter.  Finally, add a column for the post-ag water level in the town's well and enter your result. Every group should enter their results into the sheet
+3. I will create a  google sheet and share it with everyone in the class.  There should be a column for stakeholder name, model number (see above), and the -/0/+ setting for each parameter.  Finally, add a column for the post-ag water level in the town's well and enter your result. Every group should enter their results into the sheet
 
 ### Additional Discussion questions
 - Each group will have run 10 models, leading to a class-wide ensemble of 30 models - assuming no redundancy.  This will sample less than10% of the possible models  How can we be sure that we have a reasonable representation of the range of different models?  Is this important?
