@@ -26,7 +26,7 @@ ____
   - Group discussion leaders should also submit a ppt presentation for the discussion
 1. **Ensembles**
   - Part 1: (Tuesday April 28) -  I will share a link to a google sheet. Each group should fill in their proposed scenarios here along with their projected rankings of scenarios.
-  - Part 1: (Thursday April 30)- Each group should complete their simulatons and come prepared with their presentation of results. 
+  - Part 1: (Thursday April 30)- Each group should complete their simulations and come prepared with their presentation of results.
 4. **Advocacy models (Tuesday May 6)**
 
 
@@ -151,7 +151,7 @@ This is seven settings that you could change.  Think of each of these as having 
  - Kratio_streambed = [1e-2,1e-1, 1]       # ratio of K in streambed to baseline K (-)
 
 
-To organize our thinking about different model scenarios we are going to use teh concept of a model tree. If we define a set the number of elements (ne) to be varied (you are considering 7) and the number of different values (nv) for each element (in this case we have three values: 1 = lowest; 2 = middle; 3 = highest), we can define the total number of possible models as ne^nv.  You have 343 models to choose from.  To keep track of the models, you can name them based on its element values, in order.  For example, a model with low values for every variable but high value for riparian ET would be  named model_1111131 and a model with  average values for the two conductivity parameters but low values for the rest would be model_2211111.  Thus, the name directly defines the values of each parameter.  It also describes the relationship between that model and other models.   This requires that we define the elements to vary and THE ORDER that they are listed in the model tree.  We also have to determine the number of values and the specific values for each element.  The order of the parameters. Follow the  ordering above and the prescribed high medium and low values for your model.  Be sure to familiarize yourself with them and ask questions if anything is unclear.  
+To organize our thinking about different model scenarios we are going to use the concept of a model tree. If we define a set the number of elements (ne) to be varied (you are considering 7) and the number of different values (nv) for each element (in this case we have three values: 1 = lowest; 2 = middle; 3 = highest), we can define the total number of possible models as ne^nv.  You have 343 models to choose from.  To keep track of the models, you can name them based on its element values, in order.  For example, a model with low values for every variable but high value for riparian ET would be  named model_1111131 and a model with  average values for the two conductivity parameters but low values for the rest would be model_2211111.  Thus, the name directly defines the values of each parameter.  It also describes the relationship between that model and other models.   This requires that we define the elements to vary and THE ORDER that they are listed in the model tree.  We also have to determine the number of values and the specific values for each element.  The order of the parameters. Follow the  ordering above and the prescribed high medium and low values for your model.  Be sure to familiarize yourself with them and ask questions if anything is unclear.  
 
 #### Instructions:
 1. As group propose 10 combinations of the parameters listed above that you think will lead to the 'most different set' of predicted levels of drawdown in the town well.  Your goal is not to choose sets of parameter values that lead to the highest or lowest impacts.  Rather, you want to define models that are 'most different from each other' with respect to this prediction of interest. This exercise is designed to start you thinking about building model ensembles.  First, why would we want to have models that represent the range of outcomes of interest rather than just the extremes?  Second, how do we decide which settings to vary?  Third, related to the first, why don't we just vary everything?
@@ -162,7 +162,7 @@ To organize our thinking about different model scenarios we are going to use teh
 
  4. Modify your Jupyter notebook so it can easily run different scenarios. I recommend setting it up so that you can give it a list of 7 numbers like this: scenario=[1,1,2,3,1,1,1] and it will correctly choose the correct parameter values and name your model accordingly.
 
-4. Now run the model for your 10 scenarios and look at your predictions and the actual model results.  How well did you do?  Try to explain two of your 'worst' mistakes (assuming that you didn't get the ranking perfect).
+4. Now run the model for your 10 scenarios and look at your predictions and the actual model results. For these tests we will re-run scenario 5.  Start with a 200 year burn in period with no pumping. I recommend you do the burn in once and read in this head file as the starting point for your ensemble simulations so you don't have to repeat the burn in period in every simulation.  How well did you do?  Try to explain two of your 'worst' mistakes (assuming that you didn't get the ranking perfect).
 
 
 #### What to submit
