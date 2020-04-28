@@ -27,7 +27,7 @@ ____
 1. **Ensembles**
   - Part 1: (Tuesday April 28) -  Each group should fill in their proposed scenarios along with their projected rankings of scenarios. Step 1: highlight the scenarios that your group is going to run, Step 2:Go to the ranking tab and fill in the scenarios you selected on the first tab (with their 7 number names) according to your projected rankings. The google sheet is here:  https://drive.google.com/open?id=1QMC5Q9n0Ea5z_4jq4Yhc3NBiVF7ZcwI6
   - Part 1: (Thursday April 30)- Each group should complete their simulations and come prepared with their presentation of results.
-4. **Advocacy models (Tuesday May 6)**
+4. **Advocacy models (Tuesday May 6)** Each group will submit a ppt presentation before the start of class on Tuesday and will present on their design.
 
 
 ____
@@ -156,7 +156,7 @@ To organize our thinking about different model scenarios we are going to use the
 #### Instructions:
 1. As group propose 10 combinations of the parameters listed above that you think will lead to the 'most different set' of predicted levels of drawdown in the town well.  Your goal is not to choose sets of parameter values that lead to the highest or lowest impacts.  Rather, you want to define models that are 'most different from each other' with respect to this prediction of interest. This exercise is designed to start you thinking about building model ensembles.  First, why would we want to have models that represent the range of outcomes of interest rather than just the extremes?  Second, how do we decide which settings to vary?  Third, related to the first, why don't we just vary everything? Sign up for the scenarios you will run on the google sheet given in the assignment.
 
-1. BEFORE YOU RUN ANY MODELS: Estimated the ranking of your models based on the post-agriculture water level in the town's well: 1 = minimum drawdown, 10 = maximum.  This should also be filled out in the google sheet given above. 
+1. BEFORE YOU RUN ANY MODELS: Estimated the ranking of your models based on the post-agriculture water level in the town's well: 1 = minimum drawdown, 10 = maximum.  This should also be filled out in the google sheet given above.
 
 3. Draw your model tree and think about the models that you have chosen in terms of their placement on the model tree (use the order of parameters that I gave you).  Does the location of a model on the tree help you to determine how 'different' they are from one another?
 
@@ -166,7 +166,6 @@ To organize our thinking about different model scenarios we are going to use the
 
 
 #### What to submit
-Please email submissions 1 & 2 to me by the start of class so I can add to the course material repo
 1. Your table of scenarios as an excel workbook
 2. One ppt presentation per group that summarizes your simulations and includes:
    - A brief explanation of how you chose which settings to include and how you decided on the model rankings.
@@ -176,8 +175,8 @@ Please email submissions 1 & 2 to me by the start of class so I can add to the c
 3. I will create a  google sheet and share it with everyone in the class.  There should be a column for stakeholder name, model number (see above), and the -/0/+ setting for each parameter.  Finally, add a column for the post-ag water level in the town's well and enter your result. Every group should enter their results into the sheet
 
 ### Additional Discussion questions
-- Each group will have run 10 models, leading to a class-wide ensemble of 30 models - assuming no redundancy.  This will sample less than10% of the possible models  How can we be sure that we have a reasonable representation of the range of different models?  Is this important?
--  What is a good metric of 'model difference' if your goal is to establish an ensemble that represents the range of models?  
+- Each group will have run 10 models, leading to a class-wide ensemble of 30 models - assuming no redundancy.  This will sample just over 1% of the possible models  How can we be sure that we have a reasonable representation of the range of different models?  Is this important?
+- What is a good metric of 'model difference' if your goal is to establish an ensemble that represents the range of models?  
 - How can you use the model tree structure to select the models to run?  Do you need to have a prediction of interest to define 'differences' among models?  
 - Is there any role for just randomly selecting model parameters?  
 - If you do, what is the difference between Monte Carlo and Latin Hypercube sampling?    
@@ -189,4 +188,28 @@ We are entering a new domain, here.  There is no key against which to compare yo
 ​____
 <a name="advocacy"></a>
 # Advocacy Models
-Coming  soon
+So far, we have been exploring the sensitivity of our model results to the model parameters. Now  will consider the design of the ag facility we are modeling.
+
+Your goal is to come up with a better plan from the perspective of your client.  You have to balance the hydrologic impacts with the preferences of GroMore.  (Don't propose a farm in the mountains and a well on the right boundary, for example). You will come up with three possible designs to present to the class.
+
+You can change any of the following:
+- The location of the irrigation well.  But, the ag interest will fight it if the well is farther from the farm than in the proposed plan.  (They are concerned about permitting and cost of delivery.)
+- The crop.  But, the ag interest will not be happy about being restricted to a potentially lower value crop.
+- The location of the farm.  But, the ag interest has worked out a pretty good deal for the land, so they will resist this, too.
+
+You can pick whatever values you would like but you need to justify why they are reasonable suggestions.  Think carefully about which design you think will cause less negative impact based on the considerations your group might have. Do this BEFORE you start modeling.  
+
+Based on the previous assignment we will select an ensemble of 10 model parameter sets that every group will run. Implement the new design and rerun the model ensemble.
+
+When you have finished your simulations. Evaluate how your proposed design changed the behavior of the ensemble of simulations. What was the impact overall? What are the most negative and most positive possible outcomes given the ensemble you ran? How likely do you think each of these ensemble members are?
+
+PLEASE save results for every design that you consider.  At a minimum, keep an accurate description of each design so that you could model it again.  This is designed so that the naming convention for the output files describes the design.  But, you should keep a narrative description of each design so that you can interpret its impacts in a real-time discussion.
+
+#### What to submit
+1. Each group will submit a powerpoint presentation before the start of class on Tuesday May 5th and will present their design during class.
+2. Your presentation should include:
+  - A summary of the main design you are proposing
+  - Quantitative analysis of the impacts of your design (you can pick what metrics you want to show but make sure you include plots that are legible, numerical outputs as needed and that you show the actual differences rather than just having plots of scenarios side by side and interpreting differences between the two qualitatively).
+  - Discussion/analysis of how performance varied across your ensemble of simulations and how likely you think the different members of your ensemble are.
+  - a summary of the alternate designs you considered and why you didn't select them
+3. Please also include ne Jupyter notebook that includes your simulations (Its also fine if you have your analysis in a separate Jupyter notebook but they should be easy to follow) in your submission folder.
