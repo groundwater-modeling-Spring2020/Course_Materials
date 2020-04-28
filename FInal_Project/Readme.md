@@ -162,7 +162,7 @@ To organize our thinking about different model scenarios we are going to use the
 
  4. Modify your Jupyter notebook so it can easily run different scenarios. I recommend setting it up so that you can give it a list of 7 numbers like this: scenario=[1,1,2,3,1,1,1] and it will correctly choose the correct parameter values and name your model accordingly.
 
-4. Now run the model for your 10 scenarios and look at your predictions and the actual model results. For these tests we will re-run scenario 5.  Start with a 200 year burn in period with no pumping. I recommend you do the burn in once and read in this head file as the starting point for your ensemble simulations so you don't have to repeat the burn in period in every simulation.  How well did you do?  Try to explain two of your 'worst' mistakes (assuming that you didn't get the ranking perfect).
+4. Now run the model for your 10 scenarios and look at your predictions and the actual model results. For these tests we will re-run scenario 5.  For each scenario you should start with a steady state simulation followed by 100 years of burn in with no pumping or ggriculture,  followed by 100 years of transient simulation with the pumping and agriculture. How well did you do?  Try to explain two of your 'worst' mistakes (assuming that you didn't get the ranking perfect).
 
 
 #### What to submit
